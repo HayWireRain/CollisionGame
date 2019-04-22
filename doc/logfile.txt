@@ -1,0 +1,143 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files (x86)\Greenfoot\jdk\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-protected
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.8
+-classpath
+C:\Program Files (x86)\Greenfoot\lib\extensions\greenfoot.jar;C:\Program Files (x86)\Greenfoot\lib\bluejcore.jar;C:\Program Files (x86)\Greenfoot\lib\bluejeditor.jar;C:\Program Files (x86)\Greenfoot\lib\bluejext.jar;C:\Program Files (x86)\Greenfoot\lib\AppleJavaExtensions.jar;C:\Program Files (x86)\Greenfoot\lib\junit-4.11.jar;C:\Program Files (x86)\Greenfoot\lib\hamcrest-core-1.3.jar;C:\Program Files (x86)\Greenfoot\lib\bluej.jar;C:\Program Files (x86)\Greenfoot\lib\diffutils-1.2.1.jar;C:\Program Files (x86)\Greenfoot\lib\commons-httpclient-3.1.jar;C:\Program Files (x86)\Greenfoot\lib\commons-logging-api-1.1.2.jar;C:\Program Files (x86)\Greenfoot\lib\commons-codec-1.3.jar;C:\Program Files (x86)\Greenfoot\lib\jl1.0.1.jar;C:\Program Files (x86)\Greenfoot\lib\opencsv-2.3.jar;C:\Program Files (x86)\Greenfoot\lib\xom-1.2.9.jar;C:\Program Files (x86)\Greenfoot\lib\lang-stride.jar;C:\Program Files (x86)\Greenfoot\lib\guava-17.0.jar;C:\Program Files (x86)\Greenfoot\lib\javassist-3.18.0.jar;C:\Program Files (x86)\Greenfoot\lib\commons-vfs2-2.0.jar;C:\Program Files (x86)\Greenfoot\lib\httpclient-4.1.1.jar;C:\Program Files (x86)\Greenfoot\lib\httpcore-4.1.jar;C:\Program Files (x86)\Greenfoot\lib\httpmime-4.1.1.jar;Z:\$___Delete-able\GamePadTemplate
+-d
+Z:\$___Delete-able\GamePadTemplate\doc
+-encoding
+windows-1252
+-charset
+windows-1252
+-docletpath
+C:\Program Files (x86)\Greenfoot\lib\bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+Z:\$___Delete-able\GamePadTemplate\GamePad.java
+<---- end of javadoc command ---->
+Loading source file Z:\$___Delete-able\GamePadTemplate\GamePad.java...
+Constructing Javadoc information...
+Z:\$___Delete-able\GamePadTemplate\gamepadlib\GamePadLoader.java:4: error: package net.java.games.input does not exist
+import net.java.games.input.*;
+^
+Z:\$___Delete-able\GamePadTemplate\gamepadlib\GamePadLoader.java:127: error: cannot find symbol
+    private static boolean isControllerGamePad(Controller controller)
+                                               ^
+  symbol:   class Controller
+  location: class GamePadLoader
+Z:\$___Delete-able\GamePadTemplate\gamepadlib\GamePadLoader.java:133: error: cannot find symbol
+    private static Component[] filterComponents( Component[] components )
+                                                 ^
+  symbol:   class Component
+  location: class GamePadLoader
+Z:\$___Delete-able\GamePadTemplate\gamepadlib\GamePadLoader.java:133: error: cannot find symbol
+    private static Component[] filterComponents( Component[] components )
+                   ^
+  symbol:   class Component
+  location: class GamePadLoader
+Z:\$___Delete-able\GamePadTemplate\gamepadlib\GamePadLoader.java:153: error: cannot find symbol
+    private static Component findAxis( Component[] components, Component.Identifier.Axis axis )
+                                       ^
+  symbol:   class Component
+  location: class GamePadLoader
+Z:\$___Delete-able\GamePadTemplate\gamepadlib\GamePadLoader.java:153: error: package Component.Identifier does not exist
+    private static Component findAxis( Component[] components, Component.Identifier.Axis axis )
+                                                                                   ^
+Z:\$___Delete-able\GamePadTemplate\gamepadlib\GamePadLoader.java:153: error: cannot find symbol
+    private static Component findAxis( Component[] components, Component.Identifier.Axis axis )
+                   ^
+  symbol:   class Component
+  location: class GamePadLoader
+Z:\$___Delete-able\GamePadTemplate\gamepadlib\GamePadLoader.java:164: error: cannot find symbol
+    private static boolean isComponent( final Component component )
+                                              ^
+  symbol:   class Component
+  location: class GamePadLoader
+Z:\$___Delete-able\GamePadTemplate\gamepadlib\GamePadLoader.java:169: error: cannot find symbol
+    private static boolean isButton( final Component component )
+                                           ^
+  symbol:   class Component
+  location: class GamePadLoader
+Z:\$___Delete-able\GamePadTemplate\gamepadlib\GamePadLoader.java:174: error: cannot find symbol
+    private static boolean isAxis( final Component component )
+                                         ^
+  symbol:   class Component
+  location: class GamePadLoader
+Z:\$___Delete-able\GamePadTemplate\gamepadlib\GamePadLoader.java:179: error: cannot find symbol
+    private static boolean isComponentNameEndsWith( final Component component, final String endsName )
+                                                          ^
+  symbol:   class Component
+  location: class GamePadLoader
+Z:\$___Delete-able\GamePadTemplate\gamepadlib\GamePadLoader.java:185: error: cannot find symbol
+    private final Controller controller;
+                  ^
+  symbol:   class Controller
+  location: class GamePadLoader
+Z:\$___Delete-able\GamePadTemplate\gamepadlib\GamePadLoader.java:186: error: cannot find symbol
+    private final Component[] components;
+                  ^
+  symbol:   class Component
+  location: class GamePadLoader
+Z:\$___Delete-able\GamePadTemplate\gamepadlib\GamePadLoader.java:187: error: cannot find symbol
+    private final Component povAxis;
+                  ^
+  symbol:   class Component
+  location: class GamePadLoader
+Z:\$___Delete-able\GamePadTemplate\gamepadlib\GamePadLoader.java:193: error: cannot find symbol
+    private GamePadLoader(Controller controller)
+                          ^
+  symbol:   class Controller
+  location: class GamePadLoader
+Z:\$___Delete-able\GamePadTemplate\gamepadlib\GamePadLoader.java:221: error: cannot find symbol
+    private Component getComponent( int index )
+            ^
+  symbol:   class Component
+  location: class GamePadLoader
+warning: unknown enum constant Tag.FX
+  reason: class file for threadchecker.Tag not found
+warning: unknown enum constant Tag.FX
+warning: unknown enum constant Tag.Swing
+warning: unknown enum constant Tag.Swing
+warning: unknown enum constant Tag.FX
+warning: unknown enum constant Tag.FX
+warning: unknown enum constant Tag.Swing
+warning: unknown enum constant Tag.Swing
+warning: unknown enum constant Tag.FX
+warning: unknown enum constant Tag.FX
+warning: unknown enum constant Tag.FX
+warning: unknown enum constant Tag.FX
+warning: unknown enum constant Tag.FX
+warning: unknown enum constant Tag.FX
+warning: unknown enum constant Tag.FX
+warning: unknown enum constant Tag.FX
+warning: unknown enum constant Tag.Swing
+warning: unknown enum constant Tag.Swing
+warning: unknown enum constant Tag.Swing
+warning: unknown enum constant Tag.Swing
+warning: unknown enum constant Tag.FXPlatform
+Standard Doclet version 1.8.0_111
+Building tree for all the packages and classes...
+Generating Z:\$___Delete-able\GamePadTemplate\doc\GamePad.html...
+Z:\$___Delete-able\GamePadTemplate\GamePad.java:490: warning - @param argument "The" is not a parameter name.
+Generating Z:\$___Delete-able\GamePadTemplate\doc\GamePad.Axis.html...
+Generating Z:\$___Delete-able\GamePadTemplate\doc\GamePad.Button.html...
+Generating Z:\$___Delete-able\GamePadTemplate\doc\package-frame.html...
+Generating Z:\$___Delete-able\GamePadTemplate\doc\package-summary.html...
+Generating Z:\$___Delete-able\GamePadTemplate\doc\constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating Z:\$___Delete-able\GamePadTemplate\doc\allclasses-frame.html...
+Generating Z:\$___Delete-able\GamePadTemplate\doc\allclasses-noframe.html...
+Generating Z:\$___Delete-able\GamePadTemplate\doc\index.html...
+Generating Z:\$___Delete-able\GamePadTemplate\doc\stylesheet.css...
+38 warnings
